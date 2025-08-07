@@ -25,7 +25,7 @@ The logical OR operator returns true if at least one condition is true. It is us
 
 Truth Table:
 
-| Condition A |	Condition B	| A || B |
+| Condition A |	Condition B	| `A || B` |
 | ----------- | ----------- | ------ |
 | true (1) |	true (1) |	true (1) |
 | true (1) |	false (0) |	true (1) |
