@@ -14,40 +14,33 @@ The logical AND operator returns true if both conditions are true, otherwise ret
 
 Truth Table:
 
-Condition A	Condition B	A && B
-
-true (1)	true (1)	true (1)
-
-true (1)	false (0)	false (0)
-
-false (0)	true (1)	false (0)
-
-false (0)	false (0)	false (0)
+| Condition A |	Condition B |	A && B |
+| ----------- | ----------- | ------ |
+| true (1) |	true (1) |	true (1) |
+| true (1) | false (0) |	false (0) |
+| false (0) |	true (1) |	false (0) |
+| false (0) |	false (0)	| false (0) |
 ## 2. Logical OR (||)
 The logical OR operator returns true if at least one condition is true. It is used when you need any one of the conditions to be satisfied.
 
 Truth Table:
 
-Condition A	Condition B	A || B
-
-true (1)	true (1)	true (1)
-
-true (1)	false (0)	true (1)
-
-false (0)	true (1)	true (1)
-
-false (0)	false (0)	false (0)
+| Condition A |	Condition B	| A || B |
+| ----------- | ----------- | ------ |
+| true (1) |	true (1) |	true (1) |
+| true (1) |	false (0) |	true (1) |
+| false (0) |	true (1) |	true (1) |
+| false (0) |	false (0) |	false (0) |
 
 ## 3. Logical NOT (!)
 The logical NOT operator reverses the logical state of a condition. If a condition is true, !condition becomes false, and if the condition is false, !condition becomes true.
 
 Truth Table:
 
-Condition A	!A
-
-true (1)	false (0)
-
-false (0)	true (1)
+| Condition A |	!A |
+| ----------- | -- |
+| true (1) |	false (0) |
+| false (0) |	true (1) |
 ## Importance of Logical Operators
 They help in combining multiple relational conditions in decision-making.
 They make programs efficient by reducing nested if statements.
